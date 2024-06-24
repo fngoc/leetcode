@@ -12,4 +12,10 @@ func main() {
 
 	fmt.Println(easy.LongestCommonPrefix([]string{"flower", "flow", "flight"}))
 	fmt.Println(easy.LongestCommonPrefix([]string{"dog", "racecar", "car"}))
+
+	fmt.Println(easy.IsValid("()"))
+	fmt.Println(easy.IsValid("()[]{}"))
+	fmt.Println(easy.IsValid("(]"))
+	fmt.Println(easy.IsValid(""))
+	fmt.Println(easy.IsValid("){"))
 }
