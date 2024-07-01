@@ -10,7 +10,7 @@ var m = map[rune]rune{
 // Time O(N)
 // Memory O(N)
 func IsValid(s string) bool {
-	var stack []rune
+	var stack = make([]rune, 0, len(s))
 
 	if len(s) == 0 || len(s) == 1 {
 		return false
