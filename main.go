@@ -18,4 +18,10 @@ func main() {
 	fmt.Println(easy.IsValid("(]"))
 	fmt.Println(easy.IsValid(""))
 	fmt.Println(easy.IsValid("){"))
+
+	fmt.Println(easy.PlusOne([]int{1, 2, 3}))
+	fmt.Println(easy.PlusOne([]int{1, 6, 0}))
+	fmt.Println(easy.PlusOne([]int{1, 7, 9}))
+	fmt.Println(easy.PlusOne([]int{9}))
+	fmt.Println(easy.PlusOne([]int{9, 9, 9, 9, 9, 9}))
 }
