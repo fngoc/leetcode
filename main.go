@@ -24,4 +24,7 @@ func main() {
 	fmt.Println(easy.PlusOne([]int{1, 7, 9}))
 	fmt.Println(easy.PlusOne([]int{9}))
 	fmt.Println(easy.PlusOne([]int{9, 9, 9, 9, 9, 9}))
+
+	fmt.Println(easy.RemoveDuplicates([]int{1, 1, 2}))
+	fmt.Println(easy.RemoveDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}))
 }
