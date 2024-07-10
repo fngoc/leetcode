@@ -27,4 +27,11 @@ func main() {
 
 	fmt.Println(easy.RemoveDuplicates([]int{1, 1, 2}))
 	fmt.Println(easy.RemoveDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}))
+
+	fmt.Println(easy.IsPalindromeStr("asdas as"))
+	fmt.Println(easy.IsPalindromeStr("asdas asdas LLL das"))
+	fmt.Println(easy.IsPalindromeStr("A man, a plan, a canal: Panama"))
+	fmt.Println(easy.IsPalindromeStr(" "))
+	fmt.Println(easy.IsPalindromeStr("0P"))
+	fmt.Println(easy.IsPalindromeStr("0P0"))
 }
