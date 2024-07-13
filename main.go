@@ -34,4 +34,9 @@ func main() {
 	fmt.Println(easy.IsPalindromeStr(" "))
 	fmt.Println(easy.IsPalindromeStr("0P"))
 	fmt.Println(easy.IsPalindromeStr("0P0"))
+
+	easy.Merge([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3)
+	easy.Merge([]int{1}, 1, []int{}, 0)
+	easy.Merge([]int{0}, 0, []int{1}, 1)
+	easy.Merge([]int{2, 0}, 1, []int{1}, 1)
 }
